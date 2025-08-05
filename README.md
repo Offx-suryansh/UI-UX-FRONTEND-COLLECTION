@@ -11,13 +11,6 @@ The repository is organized like this:
 - `ASSIGNMENT-II` : Contains Assignment 2 files  
 - Future assignments will follow similar naming: `ASSIGNMENT-3`, `ASSIGNMENT-4`, etc.
 
-Each folder will include:
-- `index.html`
-- `style.css`
-- `script.js` (if needed)
-- supporting assets (images/fonts)
-
-
 ## 🛠️ Technologies Used
 
 - HTML
