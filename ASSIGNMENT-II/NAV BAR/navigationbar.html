@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IBM_POSTER</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .navbar {
+      background-color: black;
+      color: white;
+      padding: 10px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+    }
+
+    .navbar .logo {
+      font-weight: 600;
+      font-size: 15px;
+    }
+
+    .navbar .nav-links a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 14px;
+      transition: color 0.3s ease;
+    }
+
+    .navbar .nav-links a:hover {
+      color: #00bfff;
+    }
+
+    #container {
+      height: 370px;
+      width: 850px;
+      background-color: white;
+      border: 15px solid rgb(44, 40, 40);
+      margin: 30px auto;
+    }
+
+    #heading {
+      font-weight: 400;
+      word-spacing: 5px;
+      padding: 5px;
+      text-align: center;
+      font-size: 20px;
+    }
+
+    #imagecont {
+      position: relative;
+      left: 300px;
+      height: 60px;
+      width: 210px;
+      padding-top: 10px;
+    }
+
+    #img {
+      display: block;
+      margin: auto;
+      height: 40px;
+      width: 200px;
+    }
+
+    #def {
+      margin-top: 20px;
+      position: relative;
+      top: 10px;
+      left: 205px;
+      height: 50px;
+      width: 400px;
+    }
+
+    #def1 {
+      font-size: 13px;
+      position: absolute;
+      bottom: 125px;
+      text-align: center;
+    }
+
+    #img2 {
+      height: 100px;
+      width: 100px;
+    }
+
+    #sym {
+      position: relative;
+      left: 50px;
+      bottom: 25px;
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      border: 5px solid rgb(9, 68, 156);
+    }
+
+    #def2 {
+      display: flex;
+      justify-items: space-between;
+      position: absolute;
+      top: 300px;
+      left: 30px;
+      width: 850px;
+    }
+
+    #li1 {
+      position: relative;
+      width: 500px;
+      padding-right: 50px;
+      font-size: 12.5px;
+    }
+
+    #li2 {
+      padding-right: 0px;
+      padding-left: 90px;
+      width: 500px;
+      font-size: 12.5px;
+    }
+
+    #list {
+      font-weight: 600;
+      position: absolute;
+      left: 700px;
+      top: 150px;
+      height: 100px;
+      width: 250px;
+    }
+
+    #circle {
+      border-radius: 50%;
+      width: 10px;
+      height: 10px;
+      background-color: plum;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">ASSIGNMENT 2</div>
+    <div class="nav-links">
+      <a href="navigationbar.html">Home</a>
+      <a href="working.html">Working</a>
+      <a href="contactus.html">Contact Us</a>
+    </div>
+  </div>
+
+  <div id="container">
+    <h3 id="heading">IBM DATA SCIENCE TOOLS</h3>
+
+    <div id="imagecont">
+      <img id="img" src="images.png" alt="">
+    </div>
+
+    <div id="img2">
+      <img src="symbol.png" alt="" id="sym">
+    </div>
+
+    <div id="def">
+      <h5 id="def1">
+        A Relational database management system designed for high performance data storage and analytics. It supports AI-Driven automation, Scalability and multi-cloud environments.
+      </h5>
+    </div>
+
+    <div id="def2">
+      <li id="li1" type="none">
+        A powerful statistical analysis and predictive modelling tool used for data analysis, hypothesis testing and machine learning. It is widely used in research, business Intelligence, and social sciences.
+      </li>
+      <li id="li2" type="none">
+        Business intelligence and analysis platform that provides data visualisation, reporting, and AI-powered insights. It helps organisations make data-driven decisions with interactive dashboards.
+      </li>
+    </div>
+  </div>
+</body>
+</html>

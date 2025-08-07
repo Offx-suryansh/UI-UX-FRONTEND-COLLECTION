@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Working - Assignment 2</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: white;
+      padding: 20px;
+    }
+
+    nav {
+      background-color: black;
+      color: white;
+      padding: 10px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav .logo {
+      font-weight: 600;
+      font-size: 15px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-left: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #00bfff;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #f2f2f2;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    section h1 {
+      font-size: 22px;
+      margin-bottom: 15px;
+    }
+
+    section p {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    section ul {
+      padding-left: 20px;
+      font-size: 14px;
+    }
+
+    section ul li {
+      margin-bottom: 8px;
+    }
+
+    code {
+      background-color: #e0e0e0;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">Assignment 2</div>
+    <ul>
+      <li><a href="navigationbar.html">Home</a></li>
+      <li><a href="working.html">Working</a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <h1>How It Works</h1>
+    <p>
+      This page provides an overview of the navigation bar implementation used throughout this assignment. 
+      The navigation bar is created with simple and semantic HTML elements, styled consistently using CSS.
+      It is designed to enhance user experience by providing easy access to all main pages of the website.
+    </p>
+    <ul>
+      <li>The navigation bar stays fixed at the top of the viewport using CSS positioning such as <code>position: sticky;</code> and <code>top: 0;</code>, ensuring it’s always visible.</li>
+      <li>Each menu item links to a different HTML page, making navigation straightforward and intuitive.</li>
+      <li>Reusing the same navigation bar code on all pages helps maintain uniformity and reduces code duplication.</li>
+      <li>The CSS styling includes hover effects on links for better interactivity and user feedback.</li>
+      <li>The layout is responsive and adjusts gracefully on different screen sizes using techniques like <code>flexbox</code> or <code>media queries</code>.</li>
+    </ul>
+  </section>
+</body>
+</html>
