@@ -13,7 +13,7 @@ body {
   animation: fadeIn 1s ease-in forwards;
 }
 
-/* Fade-in page load animation */
+
 @keyframes fadeIn {
   to {
     opacity: 1;
@@ -55,7 +55,7 @@ nav ul li a {
   transition: all 0.3s ease-in-out;
 }
 
-/* Hover underline effect */
+
 nav ul li a::after {
   content: '';
   position: absolute;
@@ -76,7 +76,7 @@ nav ul li a:hover {
   border-radius: 4px;
 }
 
-/* Slide-up section animation */
+
 section {
   padding: 60px 20px;
   transform: translateY(30px);
@@ -85,7 +85,7 @@ section {
   animation-delay: 0.5s;
 }
 
-/* Keyframes */
+
 @keyframes slideUp {
   to {
     transform: translateY(0);
