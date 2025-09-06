@@ -8,8 +8,9 @@ Welcome to my **UI/UX Frontend Development Projects and Assignments** repository
 The repository is organized like this:
 
 - `ASSIGNMENT-1` : Contains Assignment 1 files  
-- `ASSIGNMENT-II` : Contains Assignment 2 files  
-- Future assignments will follow similar naming: `ASSIGNMENT-3`, `ASSIGNMENT-4`, etc.
+- `ASSIGNMENT-II` : Contains Assignment 2 files
+- `ASSIGNMENT-III` : Contains Assignment 3 files
+- Future assignments will follow similar naming: `ASSIGNMENT-4`, `ASSIGNMENT-5`, etc.
 
 ## 🛠️ Technologies Used
 
